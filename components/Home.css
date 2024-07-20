@@ -1,0 +1,33 @@
+
+.about-section {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds subtle shadow */
+  }
+  
+  .about-section h2 {
+      font-size: 24px; /* Smaller heading font size for better fit */
+  }
+  
+  .about-section p {
+      font-size: 16px; /* Smaller paragraph font size for a more refined look */
+  }
+  
+  /* Enhance responsiveness */
+  @media (max-width: 768px) {
+    .about-section {
+      margin: 20px;
+      padding: 15px; /* Slightly smaller padding on smaller screens */
+    }
+  
+    .about-section h2 {
+        font-size: 20px; /* Even smaller on mobile for better readability */
+    }
+  
+    .about-section p {
+        font-size: 14px; /* Adjusted for mobile readability */
+    }
+  }
