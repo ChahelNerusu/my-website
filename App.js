@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import linkedinlogo from '/Users/chahelnerusu/firstapp/src/assets/linkedin.png';
-import githublogo from '/Users/chahelnerusu/firstapp/src/assets/output-onlinepngtools.png';
+import linkedinlogo from './src/assets/linkedin.png';
+import githublogo from './src/assets/output-onlinepngtools.png';
 
 const App = () => {
   useEffect(() => {
