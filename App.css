@@ -1,0 +1,148 @@
+.name {
+  color: #eae2f0;
+  font-size: 3rem;
+  font-family: 'Poppins';
+  padding: 0;
+  margin-bottom: 1px; /* Adjust this value to move .role closer */
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(255, 87, 34, 0.5), rgba(18, 18, 18, 0)); /* Change colors */
+  z-index: 0;
+  background-size: 100% 100%; /* Adjust this value to make the radial smaller */
+}
+
+.intro {
+  color: #8091b2;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.role {
+  color: #eae2f0;
+  font-family: 'Poppins';
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 0;
+  margin-top: 0; /* Ensure there's no extra margin at the top */
+}
+
+.description {
+  color: #8cb280;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61cdfb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  background: #f9f9f9;
+}
+
+.message {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.message.user {
+  background-color: #007bff;
+  color: white;
+  text-align: right;
+}
+
+.message.bot {
+  background-color: #e9ecef;
+  text-align: left;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+
+.input-area button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+
+.social-logos {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px; /* Adjust this value to increase/decrease the space between logos */
+  margin-top: 70px; /* Adjust this value to control the space above the logos */
+}
+
+.linkedin-logo img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  object-fit: contain;
+}
+
+.github-logo img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  object-fit: contain;
+  padding-top: 5px;
+}
+.job:hover .job-title {
+  color: #ff69b4; /* Pink color for job title on hover */
+}
+
+.job-title {
+  color: #eae2f0;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
